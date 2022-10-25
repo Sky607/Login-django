@@ -1,0 +1,11 @@
+textarea{
+    border:2px solid black;
+    border-radius:4px;
+    font-weight: bold;
+    font-family: italic;
+}
+input[type="submit"]{
+    border:2px solid black;
+    border-radius:4px;
+    font-weight: bold;
+}

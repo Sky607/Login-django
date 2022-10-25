@@ -1,0 +1,17 @@
+
+{% extends 'basic_app/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/special.css' %}"/>
+
+
+{% block body_block %}
+
+<div class="jumbotron">
+    <h1>Thank you for visiting the site</h1>
+    <form action="{% url 'basic_app:index' %}">
+    <textarea cols="30" rows="7" placeholder="Please give your feedback"></textarea>
+    <br>
+    <input type="submit" value="submit">
+</form>
+</div>
+{% endblock %}
